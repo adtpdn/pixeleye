@@ -28,4 +28,4 @@ jobs:
         run: npx playwright install --with-deps webkit
 
       - name: Run Pixeleye Tests
-        run: npx pixeleye exec playwright test
+        run: npm run test:e2e
