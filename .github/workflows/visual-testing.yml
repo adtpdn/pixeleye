@@ -27,5 +27,5 @@ jobs:
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps webkit
 
-      - name: Run Playwright tests with Pixeleye
-        run: npm run pixeleye exec test:e2e
+      - name: Run Pixeleye Tests
+        run: npx pixeleye exec playwright test
