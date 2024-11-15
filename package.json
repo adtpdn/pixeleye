@@ -8,11 +8,5 @@
     "@pixeleye/playwright": "0.8.5",
     "pixeleye": "latest",
     "playwright": "^1.44.1"
-  },
-  "devDependencies": {
-    "@pixeleye/tsconfig": "latest",
-    "@playwright/test": "^1.44.1",
-    "@types/node": "20.12.12",
-    "typescript": "^5.4.5"
   }
 }
